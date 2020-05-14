@@ -19,6 +19,7 @@
 		800F9F4E24665420004C4D70 /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800F9F4D24665420004C4D70 /* LogInController.swift */; };
 		800F9F5024665432004C4D70 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800F9F4F24665432004C4D70 /* TabViewController.swift */; };
 		80F4172B246CEB67002238F9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4172A246CEB67002238F9 /* SearchViewController.swift */; };
+		80F4172D246CEC5F002238F9 /* ProfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4172C246CEC5F002238F9 /* ProfViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		800F9F4D24665420004C4D70 /* LogInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
 		800F9F4F24665432004C4D70 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		80F4172A246CEB67002238F9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		80F4172C246CEC5F002238F9 /* ProfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				800F9F26246653D9004C4D70 /* AppDelegate.swift */,
 				800F9F28246653D9004C4D70 /* SceneDelegate.swift */,
 				800F9F2A246653D9004C4D70 /* ChatViewController.swift */,
+				80F4172C246CEC5F002238F9 /* ProfViewController.swift */,
 				800F9F4D24665420004C4D70 /* LogInController.swift */,
 				800F9F4F24665432004C4D70 /* TabViewController.swift */,
 				80F4172A246CEB67002238F9 /* SearchViewController.swift */,
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				800F9F5024665432004C4D70 /* TabViewController.swift in Sources */,
+				80F4172D246CEC5F002238F9 /* ProfViewController.swift in Sources */,
 				80F4172B246CEB67002238F9 /* SearchViewController.swift in Sources */,
 				800F9F2B246653D9004C4D70 /* ChatViewController.swift in Sources */,
 				800F9F27246653D9004C4D70 /* AppDelegate.swift in Sources */,
