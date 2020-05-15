@@ -16,8 +16,10 @@
 		800F9F36246653DA004C4D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800F9F34246653DA004C4D70 /* LaunchScreen.storyboard */; };
 		800F9F41246653DB004C4D70 /* ContactivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800F9F40246653DB004C4D70 /* ContactivityTests.swift */; };
 		800F9F4C246653F9004C4D70 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800F9F4B246653F9004C4D70 /* Login.storyboard */; };
-		800F9F4E24665420004C4D70 /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800F9F4D24665420004C4D70 /* LogInController.swift */; };
 		800F9F5024665432004C4D70 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800F9F4F24665432004C4D70 /* TabViewController.swift */; };
+		80608EFD246E3FA000A67286 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80608EFC246E3FA000A67286 /* LogInViewController.swift */; };
+		80608EFF246E3FAC00A67286 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80608EFE246E3FAC00A67286 /* User.swift */; };
+		80608F01246E3FB500A67286 /* Professional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80608F00246E3FB500A67286 /* Professional.swift */; };
 		80F4172B246CEB67002238F9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4172A246CEB67002238F9 /* SearchViewController.swift */; };
 		80F4172D246CEC5F002238F9 /* ProfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4172C246CEC5F002238F9 /* ProfViewController.swift */; };
 /* End PBXBuildFile section */
@@ -46,8 +48,10 @@
 		800F9F40246653DB004C4D70 /* ContactivityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactivityTests.swift; sourceTree = "<group>"; };
 		800F9F42246653DB004C4D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		800F9F4B246653F9004C4D70 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		800F9F4D24665420004C4D70 /* LogInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
 		800F9F4F24665432004C4D70 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		80608EFC246E3FA000A67286 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		80608EFE246E3FAC00A67286 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		80608F00246E3FB500A67286 /* Professional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professional.swift; sourceTree = "<group>"; };
 		80F4172A246CEB67002238F9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		80F4172C246CEC5F002238F9 /* ProfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,9 +98,11 @@
 				800F9F26246653D9004C4D70 /* AppDelegate.swift */,
 				800F9F28246653D9004C4D70 /* SceneDelegate.swift */,
 				800F9F2A246653D9004C4D70 /* ChatViewController.swift */,
+				80608EFE246E3FAC00A67286 /* User.swift */,
+				80608F00246E3FB500A67286 /* Professional.swift */,
 				80F4172C246CEC5F002238F9 /* ProfViewController.swift */,
-				800F9F4D24665420004C4D70 /* LogInController.swift */,
 				800F9F4F24665432004C4D70 /* TabViewController.swift */,
+				80608EFC246E3FA000A67286 /* LogInViewController.swift */,
 				80F4172A246CEB67002238F9 /* SearchViewController.swift */,
 				800F9F4B246653F9004C4D70 /* Login.storyboard */,
 				800F9F2C246653D9004C4D70 /* Main.storyboard */,
@@ -219,12 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80608F01246E3FB500A67286 /* Professional.swift in Sources */,
 				800F9F5024665432004C4D70 /* TabViewController.swift in Sources */,
 				80F4172D246CEC5F002238F9 /* ProfViewController.swift in Sources */,
 				80F4172B246CEB67002238F9 /* SearchViewController.swift in Sources */,
 				800F9F2B246653D9004C4D70 /* ChatViewController.swift in Sources */,
+				80608EFD246E3FA000A67286 /* LogInViewController.swift in Sources */,
+				80608EFF246E3FAC00A67286 /* User.swift in Sources */,
 				800F9F27246653D9004C4D70 /* AppDelegate.swift in Sources */,
-				800F9F4E24665420004C4D70 /* LogInController.swift in Sources */,
 				800F9F31246653D9004C4D70 /* Contactivity.xcdatamodeld in Sources */,
 				800F9F29246653D9004C4D70 /* SceneDelegate.swift in Sources */,
 			);
