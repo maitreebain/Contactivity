@@ -20,6 +20,7 @@
 		80608EFD246E3FA000A67286 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80608EFC246E3FA000A67286 /* LogInViewController.swift */; };
 		80608EFF246E3FAC00A67286 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80608EFE246E3FAC00A67286 /* User.swift */; };
 		80608F01246E3FB500A67286 /* Professional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80608F00246E3FB500A67286 /* Professional.swift */; };
+		809AA1E02476263D007DCAB8 /* AuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AA1DF2476263D007DCAB8 /* AuthSession.swift */; };
 		80DA59E12470E77400B88DE6 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DA59E02470E77400B88DE6 /* DatabaseService.swift */; };
 		80DA59E32470E78B00B88DE6 /* DataPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DA59E22470E78B00B88DE6 /* DataPersistence.swift */; };
 		80F4172B246CEB67002238F9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4172A246CEB67002238F9 /* SearchViewController.swift */; };
@@ -54,6 +55,7 @@
 		80608EFC246E3FA000A67286 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		80608EFE246E3FAC00A67286 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		80608F00246E3FB500A67286 /* Professional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professional.swift; sourceTree = "<group>"; };
+		809AA1DF2476263D007DCAB8 /* AuthSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSession.swift; sourceTree = "<group>"; };
 		80DA59E02470E77400B88DE6 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		80DA59E22470E78B00B88DE6 /* DataPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistence.swift; sourceTree = "<group>"; };
 		80F4172A246CEB67002238F9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				800F9F4F24665432004C4D70 /* TabViewController.swift */,
 				80608EFC246E3FA000A67286 /* LogInViewController.swift */,
 				80F4172A246CEB67002238F9 /* SearchViewController.swift */,
+				809AA1DF2476263D007DCAB8 /* AuthSession.swift */,
 				80DA59E02470E77400B88DE6 /* DatabaseService.swift */,
 				80DA59E22470E78B00B88DE6 /* DataPersistence.swift */,
 				800F9F4B246653F9004C4D70 /* Login.storyboard */,
@@ -242,6 +245,7 @@
 				800F9F27246653D9004C4D70 /* AppDelegate.swift in Sources */,
 				800F9F31246653D9004C4D70 /* Contactivity.xcdatamodeld in Sources */,
 				800F9F29246653D9004C4D70 /* SceneDelegate.swift in Sources */,
+				809AA1E02476263D007DCAB8 /* AuthSession.swift in Sources */,
 				80DA59E12470E77400B88DE6 /* DatabaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
